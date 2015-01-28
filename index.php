@@ -9,7 +9,7 @@
   <!-- tema del sitio -->
   <link rel="stylesheet" href="static/css/AdminLTE.css">
 </head>
-<body bgcolor="#222222">
+<body class="bg-black">
   <div class="form-box" id="login-box">
     <div class="header">Registro de usuarios</div>
     <form action="RegistrarUsuarios.php" method="post">
