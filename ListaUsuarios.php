@@ -2,7 +2,7 @@
 
 include_once('settings/conexion.php');
 
-$Usuarios = "SELECT + FROM Usuario";
+$Usuarios = "SELECT * FROM Usuario";
 $res_Usuarios = mysql_query($Usuarios);
 
 ?>

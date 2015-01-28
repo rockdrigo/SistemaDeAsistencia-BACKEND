@@ -17,7 +17,6 @@ $pdf->SetTitle('Ficha de Acreditacion');
 
 // set header and footer fonts
 $pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
-$pdf->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
 
 // set default monospaced font
 $pdf->SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
@@ -25,7 +24,6 @@ $pdf->SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
 // set margins
 $pdf->SetMargins(PDF_MARGIN_LEFT, PDF_MARGIN_TOP, PDF_MARGIN_RIGHT);
 $pdf->SetHeaderMargin(PDF_MARGIN_HEADER);
-$pdf->SetFooterMargin(PDF_MARGIN_FOOTER);
 
 // set auto page breaks
 $pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM);
@@ -77,7 +75,7 @@ $htmlTab1 = '<table border="2" CELLPADDING="5" CELLSPACING="0">
                 </td>
                 <td class="active" align="center">
                 <br>
-                  <img src="../../../../QRUsuarios'.$Email.'.png" />
+                  <img src="../../../../QRUsuarios/'.$Email.'.png" />
                 </td>
               </tr>';
 
