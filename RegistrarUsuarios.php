@@ -14,7 +14,7 @@ $CorectionError = "L";
 
 
 $UsuarioNuevo = "INSERT INTO Usuario ( Nombre, Email ) value ( '$Nombre', '$Email' )";
-mysql_query($conexion, $UsuarioNuevo);
+mysql_query($UsuarioNuevo);
 
 header("Location:UsuarioRegistrado.php?email=".$Email."&nombre".$Nombre);
 
