@@ -1,6 +1,6 @@
 <?php 
 
-include_once("settings/conexxxion.php");
+include_once("settings/conexion.php");
 include_once("static/lib/phpqrcode/qrlib.php");
 
 $Nombre = $_POST["name"];
