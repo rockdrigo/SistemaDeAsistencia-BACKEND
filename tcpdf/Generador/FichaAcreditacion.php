@@ -91,7 +91,7 @@ $html = $html1.'<br />'.$htmlTab1.$htmlTab2.'<br />'.$html3;
 
 $pdf->writeHTML($html, true, false, true, false, '');
 
-$NombreDeArchivo = "FichaAcreditacion.pdf"
+$NombreDeArchivo = "FichaAcreditacion.pdf";
 
 // Close and output PDF document
 // This method has several options, check the source code documentation for more information.
