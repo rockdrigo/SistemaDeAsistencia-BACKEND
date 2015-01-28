@@ -16,7 +16,7 @@
       <<h2>Felicitaciones te has registrado muy bien :D</h2>
     </div>
     <div class="footer">
-        <a href=""><button class="btn btn-success btn-block">Enviar</button></a>
+        <a href="static/lib/tcpdf/Generador/FichaAcreditacion.php?email=<?php echo $_GET['email']."&nombre=". $_GET['nombre'];?>"><button class="btn btn-success btn-block">Descargar Ficha de Acreditación</button></a>
         <hr>
         <a href="index.php">Registrar otro usuario</a>
         <a href="ListaUsuarios.php">Ver Inscritos</a>
