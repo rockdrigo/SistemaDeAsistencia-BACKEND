@@ -83,12 +83,13 @@ $htmlTab1 = '<table border="2" CELLPADDING="5" CELLSPACING="0">
 $htmlTab2 = '</table>';
 
 $html3 = '<hr>
-            <div align="center"></div>';
+            <div align="center">
+          </div>';
 
 $html = $html1.'<br />'.$htmlTab1.$htmlTab2.'<br />'.$html3;
 
-// Print text using writeHTML()
-$pdf->writeHTML($html, true, false, true, false);
+
+$pdf->writeHTML($html, true, false, true, false, '');
 
 $NombreDeArchivo = "FichaAcreditacion.pdf"
 
