@@ -16,7 +16,7 @@
       <<h2>Felicitaciones te has registrado muy bien :D</h2>
     </div>
     <div class="footer">
-        <a href="tcpdf/Generador/FichaAcreditacion.php?email=<?php echo $_GET['email']."&nombre=". $_GET['nombre'];?>"><button class="btn btn-success btn-block">Descargar Ficha de Acreditación</button></a>
+        <a href="tcpdf/Generador/FichaAcreditacion.php?email=<?php echo $_GET['email']."&nombre=". $_GET['nombre'];?>" target="_blank"><button class="btn btn-success btn-block">Descargar Ficha de Acreditación</button></a>
         <hr>
         <a href="index.php">Registrar otro usuario</a>
         <br>
