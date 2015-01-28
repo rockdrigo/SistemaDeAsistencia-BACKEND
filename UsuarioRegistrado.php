@@ -10,7 +10,19 @@
   <link rel="stylesheet" href="static/css/AdminLTE.css" type="text/css">
 </head>
 <body class="bg-black">
-  
+  <div class="form-box" id="login-box">
+    <div class="header">Usuario Registrado</div>
+    <div class="body bg-gray" align="center">
+      <<h2>Felicitaciones te has registrado muy bien :D</h2>
+    </div>
+    <div class="footer">
+        <a href=""><button class="btn btn-success btn-block">Enviar</button></a>
+        <hr>
+        <a href="index.php">Registrar otro usuario</a>
+        <a href="ListaUsuarios.php">Ver Inscritos</a>
+    </div>
+
+  </div>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" type="text/javascript"></script>
 </body>
