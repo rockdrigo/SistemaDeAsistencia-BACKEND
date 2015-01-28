@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Control de Asistencia - HackLab Eventos</title>
-  <meta content='width=device-width, initial-scale=1, maximun-scale=1, user-scalable=no' name='viewport'>
+  <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
   <!-- tema del sitio -->
