@@ -75,7 +75,7 @@ $htmlTab1 = '<table border="2" CELLPADDING="5" CELLSPACING="0">
                 </td>
                 <td class="active" align="center">
                 <br>
-                  <img src="../../../../QRUsuarios/'.$Email.'.png" />
+                  <img src="../../QRUsuarios/'.$Email.'.png" />
                 </td>
               </tr>';
 
