@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
   <!-- tema del sitio -->
-  <link rel="stylesheet" href="static/css/AdminLTE.css">
+  <link rel="stylesheet" href="static/css/AdminLTE.css" type="text/css">
 </head>
 <body class="bg-black">
   <div class="form-box" id="login-box">
